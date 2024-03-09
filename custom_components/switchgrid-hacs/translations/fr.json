@@ -1,0 +1,25 @@
+{
+    "config": {
+        "abort": {
+            "cannot_connect": "Connexion impossible à Switchgrid.",
+            "single_instance_allowed": "Une seule intégration Switchgrid peut être installée à la fois."
+        },
+        "step": {
+            "user": {
+                "description": "Voulez-vous installer Switchgrid ?"
+            }
+        }
+    },
+    "entity": {
+        "calendar": {
+            "switchgrid_events": {
+                "name": "Effacements"
+            }
+        },
+        "sensor": {
+            "switchgrid_next_event": {
+                "name": "Prochain Effacement"
+            }
+        }
+    }
+}
